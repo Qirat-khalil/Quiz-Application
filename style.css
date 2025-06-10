@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(49, 49, 92), rgb(183, 183, 221));
+    ;
+}
+
+h1 {
+    margin: 0 auto;
+    background-color: rgb(141, 141, 211);
+    text-align: center;
+
+}
+
+.container {
+    margin-top: 35px;
+    display: none;
+
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    /* background-color: rgb(11, 206, 141); */
+    color: white;
+
+}
+
+.container h6 {
+    margin-block: 25px;
+}
+
+.quiform {
+    padding: 25px;
+}
+
+.container h6 {
+    font-size: 25px;
+    /* margin-block: 10px; */
+    font-family: sans-serif;
+
+}
+
+.container p {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.btn {
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(104, 130, 199);
+    /* text-align: center; */
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 8px 8px 6px grey
+}
+
+.btn:hover {
+    background-color: rgb(64, 59, 100);
+}
+
+.choicselec {
+
+    background-color: white;
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.selected {
+    background-color: rgb(138, 138, 189);
+}
+
+.scorecard {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stbt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.strbtn {
+    padding: 10px;
+    width: 400px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(104, 130, 199);
+    margin-top: 150px;
+    box-shadow: 8px 8px 6px grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timer {
+    position: absolute;
+    top: 75px;
+    right: 75px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(74, 74, 129);
+    padding: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(201, 30, 30);
+    /* box-shadow: 5px 5px 6px rgb(201, 30, 30); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
